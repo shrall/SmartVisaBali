@@ -14,7 +14,8 @@ module.exports = {
       colors: {
         "sv-yellow": {
           300: "#FEC949",
-          400: "#F5A700",
+          400: "#FBBB2A",
+          500: "#F5A700",
         },
         "sv-black": "#0A1930",
       },

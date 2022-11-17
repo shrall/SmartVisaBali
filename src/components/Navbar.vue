@@ -1,5 +1,6 @@
 <template>
   <div
+    style="box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25)"
     class="
       w-full
       h-vh-10
@@ -8,10 +9,11 @@
       xl:justify-between
       px-2
       xl:px-24
-      py-4
       font-kanit
-      drop-shadow-2xl
       z-50
+      py-12
+      bg-white
+      absolute
     "
   >
     <router-link :to="{ name: 'Home' }">
