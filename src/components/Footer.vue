@@ -29,9 +29,11 @@
               </div>
             </div>
             <div class="flex flex-col gap-2">
-              <div class="font-semibold font-kanit cursor-pointer">
-                Contact Us
-              </div>
+              <router-link :to="{ name: 'ContactUs' }">
+                <div class="font-semibold font-kanit cursor-pointer">
+                  Contact Us
+                </div>
+              </router-link>
             </div>
           </div>
           <div class="grid grid-cols-2 text-xl font-semibold">

@@ -37,7 +37,9 @@
         <a class="cursor-pointer hover:opacity-80"> About Us </a>
       </router-link>
       <a class="cursor-pointer hover:opacity-80"> Service </a>
-      <a class="cursor-pointer hover:opacity-80"> Contact Us </a>
+      <router-link :to="{ name: 'ContactUs' }">
+        <a class="cursor-pointer hover:opacity-80"> Contact Us </a>
+      </router-link>
     </div>
   </div>
 </template>
