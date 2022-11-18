@@ -5,9 +5,11 @@
         <div class="flex flex-col gap-12 pr-24">
           <div class="flex items-start text-4xl justify-between font-roboto">
             <div class="flex flex-col gap-2">
-              <div class="font-semibold font-kanit cursor-pointer">
-                About Us
-              </div>
+              <router-link :to="{ name: 'AboutUs' }">
+                <div class="font-semibold font-kanit cursor-pointer">
+                  About Us
+                </div>
+              </router-link>
             </div>
             <div class="flex flex-col gap-2">
               <div class="font-semibold font-kanit cursor-pointer">

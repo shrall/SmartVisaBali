@@ -33,7 +33,9 @@
         font-semibold
       "
     >
-      <a class="cursor-pointer hover:opacity-80"> About Us </a>
+      <router-link :to="{ name: 'AboutUs' }">
+        <a class="cursor-pointer hover:opacity-80"> About Us </a>
+      </router-link>
       <a class="cursor-pointer hover:opacity-80"> Service </a>
       <a class="cursor-pointer hover:opacity-80"> Contact Us </a>
     </div>
