@@ -19,6 +19,7 @@ import VoaExtension from "/src/views/VoaExtension.vue";
 import SingleEntryVisaB211AExtension from "/src/views/SingleEntryVisaB211AExtension.vue";
 import DrivingLicense from "/src/views/DrivingLicense.vue";
 import ForeignInvestmentCompany from "/src/views/ForeignInvestmentCompany.vue";
+import ResidencyCertificate from "/src/views/ResidencyCertificate.vue";
 
 //Routes
 const routes = [
@@ -172,6 +173,14 @@ const routes = [
     component: ForeignInvestmentCompany,
     meta: {
       title: "Foreign Investment Company",
+    },
+  },
+  {
+    path: "/residency-certificate",
+    name: "ResidencyCertificate",
+    component: ResidencyCertificate,
+    meta: {
+      title: "Residency Certificate",
     },
   },
 ];
