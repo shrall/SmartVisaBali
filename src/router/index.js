@@ -5,6 +5,7 @@ import AboutUs from "/src/views/AboutUs.vue";
 import ContactUs from "/src/views/ContactUs.vue";
 import Services from "/src/views/Services.vue";
 import OffshoreVisa from "/src/views/OffshoreVisa.vue";
+import OnshoreVisa from "/src/views/OnshoreVisa.vue";
 
 //Routes
 const routes = [
@@ -46,6 +47,14 @@ const routes = [
     component: OffshoreVisa,
     meta: {
       title: "OffshoreVisa",
+    },
+  },
+  {
+    path: "/onshore-visa",
+    name: "OnshoreVisa",
+    component: OnshoreVisa,
+    meta: {
+      title: "OnshoreVisa",
     },
   },
 ];

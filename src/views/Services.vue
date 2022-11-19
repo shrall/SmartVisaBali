@@ -574,26 +574,28 @@
           This visa allows you to stay in Indonesia for a maximum of 30 days and
           can be extended 4 times. Each extension with 30 days.
         </div>
-        <div
-          class="
-            bg-sv-yellow-300
-            text-sv-black
-            hover:text-white
-            font-kanit font-semibold
-            text-4xl
-            rounded-2xl
-            text-center
-            flex
-            justify-center
-            px-4
-            py-2
-            shadow-lg
-            cursor-pointer
-            shadow-sv-yellow-300
-          "
-        >
-          Find Out More
-        </div>
+        <router-link :to="{ name: 'OnshoreVisa' }">
+          <div
+            class="
+              bg-sv-yellow-300
+              text-sv-black
+              hover:text-white
+              font-kanit font-semibold
+              text-4xl
+              rounded-2xl
+              text-center
+              flex
+              justify-center
+              px-4
+              py-2
+              shadow-lg
+              cursor-pointer
+              shadow-sv-yellow-300
+            "
+          >
+            Find Out More
+          </div>
+        </router-link>
       </div>
     </div>
   </div>
