@@ -6,6 +6,7 @@ import ContactUs from "/src/views/ContactUs.vue";
 import Services from "/src/views/Services.vue";
 import OffshoreVisa from "/src/views/OffshoreVisa.vue";
 import OnshoreVisa from "/src/views/OnshoreVisa.vue";
+import EVisaB211B from "/src/views/EVisaB211B.vue";
 
 //Routes
 const routes = [
@@ -55,6 +56,14 @@ const routes = [
     component: OnshoreVisa,
     meta: {
       title: "OnshoreVisa",
+    },
+  },
+  {
+    path: "/evisa-b211b",
+    name: "EVisaB211B",
+    component: EVisaB211B,
+    meta: {
+      title: "EVisaB211B",
     },
   },
 ];

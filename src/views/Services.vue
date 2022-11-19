@@ -123,35 +123,38 @@
           </div>
         </div>
       </div>
-      <div class="flex flex-col relative group cursor-pointer">
-        <img
-          src="../assets/images/services-2.png"
-          class="object-cover rounded-2xl h-vh-60 w-vw-20"
-          alt=""
-          srcset=""
-        />
-        <div
-          class="
-            flex
-            justify-center
-            items-center
-            text-center
-            gap-4
-            absolute
-            rounded-b-2xl
-            bg-sv-black
-            h-28
-            font-kanit font-semibold
-            z-20
-            text-white
-            w-full
-            p-4
-            bottom-0
-          "
-        >
-          <div class="text-3xl">E-Visa<br />(B211 A)</div>
+
+      <router-link :to="{ name: 'EVisaB211B' }">
+        <div class="flex flex-col relative group cursor-pointer">
+          <img
+            src="../assets/images/services-2.png"
+            class="object-cover rounded-2xl h-vh-60 w-vw-20"
+            alt=""
+            srcset=""
+          />
+          <div
+            class="
+              flex
+              justify-center
+              items-center
+              text-center
+              gap-4
+              absolute
+              rounded-b-2xl
+              bg-sv-black
+              h-28
+              font-kanit font-semibold
+              z-20
+              text-white
+              w-full
+              p-4
+              bottom-0
+            "
+          >
+            <div class="text-3xl">E-Visa<br />(B211 B)</div>
+          </div>
         </div>
-      </div>
+      </router-link>
       <div class="flex flex-col relative group">
         <img
           src="../assets/images/services-3.png"
