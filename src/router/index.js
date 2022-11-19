@@ -18,6 +18,7 @@ import OnshoreSingleEntry from "/src/views/OnshoreSingleEntry.vue";
 import VoaExtension from "/src/views/VoaExtension.vue";
 import SingleEntryVisaB211AExtension from "/src/views/SingleEntryVisaB211AExtension.vue";
 import DrivingLicense from "/src/views/DrivingLicense.vue";
+import ForeignInvestmentCompany from "/src/views/ForeignInvestmentCompany.vue";
 
 //Routes
 const routes = [
@@ -163,6 +164,14 @@ const routes = [
     component: DrivingLicense,
     meta: {
       title: "Driving License",
+    },
+  },
+  {
+    path: "/foreign-investment-company",
+    name: "ForeignInvestmentCompany",
+    component: ForeignInvestmentCompany,
+    meta: {
+      title: "Foreign Investment Company",
     },
   },
 ];
