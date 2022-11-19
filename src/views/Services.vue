@@ -123,7 +123,6 @@
           </div>
         </div>
       </div>
-
       <router-link :to="{ name: 'EVisaB211B' }">
         <div class="flex flex-col relative group cursor-pointer">
           <img
@@ -203,21 +202,23 @@
             rounded-2xl
           "
         >
-          <div
-            class="
-              text-3xl
-              hover:bg-white
-              w-full
-              py-2
-              cursor-pointer
-              h-20
-              flex
-              items-center
-              justify-center
-            "
-          >
-            Investor KITAS
-          </div>
+          <router-link :to="{ name: 'InvestorItas' }">
+            <div
+              class="
+                text-3xl
+                hover:bg-white
+                w-full
+                py-2
+                cursor-pointer
+                h-20
+                flex
+                items-center
+                justify-center
+              "
+            >
+              Investor KITAS
+            </div>
+          </router-link>
           <div
             class="
               text-3xl
