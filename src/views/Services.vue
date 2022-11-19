@@ -441,21 +441,23 @@
           >
             Fast Track
           </div>
-          <div
-            class="
-              text-3xl
-              hover:bg-white
-              w-full
-              py-2
-              cursor-pointer
-              h-20
-              flex
-              items-center
-              justify-center
-            "
-          >
-            Driving License
-          </div>
+          <router-link class="w-full" :to="{ name: 'DrivingLicense' }">
+            <div
+              class="
+                text-3xl
+                hover:bg-white
+                w-full
+                py-2
+                cursor-pointer
+                h-20
+                flex
+                items-center
+                justify-center
+              "
+            >
+              Driving License
+            </div>
+          </router-link>
           <div
             class="
               text-3xl
