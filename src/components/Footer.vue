@@ -12,9 +12,11 @@
               </router-link>
             </div>
             <div class="flex flex-col gap-2">
-              <div class="font-semibold font-kanit cursor-pointer">
-                Services
-              </div>
+              <router-link :to="{ name: 'Services' }">
+                <div class="font-semibold font-kanit cursor-pointer">
+                  Services
+                </div>
+              </router-link>
               <ul class="list-none text-xl">
                 <li>E-Visa (B211 A)</li>
                 <li>E-Visa (B211 B)</li>

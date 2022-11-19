@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "/src/views/Home.vue";
 import AboutUs from "/src/views/AboutUs.vue";
 import ContactUs from "/src/views/ContactUs.vue";
+import Services from "/src/views/Services.vue";
 
 //Routes
 const routes = [
@@ -28,6 +29,14 @@ const routes = [
     component: ContactUs,
     meta: {
       title: "ContactUs",
+    },
+  },
+  {
+    path: "/services",
+    name: "Services",
+    component: Services,
+    meta: {
+      title: "Services",
     },
   },
 ];

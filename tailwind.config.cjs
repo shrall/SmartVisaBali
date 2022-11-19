@@ -45,6 +45,8 @@ module.exports = {
         "9/10": "90%",
       },
       width: {
+        "vw-20": "20vw",
+        "vw-25": "25vw",
         "vw-30": "30vw",
         "vw-40": "40vw",
         "vw-50": "50vw",
@@ -70,6 +72,8 @@ module.exports = {
       },
       height: {
         "vh-10": "10vh",
+        "vh-20": "20vh",
+        "vh-25": "25vh",
         "vh-30": "30vh",
         "vh-35": "35vh",
         "vh-40": "40vh",
