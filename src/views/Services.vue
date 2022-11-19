@@ -355,22 +355,27 @@
               VOA Extension
             </div>
           </router-link>
-          <div
-            class="
-              text-3xl
-              hover:bg-white
-              w-full
-              py-2
-              cursor-pointer
-              h-20
-              flex
-              items-center
-              justify-center
-            "
+          <router-link
+            class="w-full"
+            :to="{ name: 'SingleEntryVisaB211AExtension' }"
           >
-            Single Entry Visa <br />
-            B211A Extension
-          </div>
+            <div
+              class="
+                text-3xl
+                hover:bg-white
+                w-full
+                py-2
+                cursor-pointer
+                h-20
+                flex
+                items-center
+                justify-center
+              "
+            >
+              Single Entry Visa <br />
+              B211A Extension
+            </div>
+          </router-link>
         </div>
       </div>
       <div class="flex flex-col relative group">

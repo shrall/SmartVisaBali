@@ -16,6 +16,7 @@ import VIPNgurahRai from "/src/views/VIPNgurahRai.vue";
 import OffshoreSingleEntry from "/src/views/OffshoreSingleEntry.vue";
 import OnshoreSingleEntry from "/src/views/OnshoreSingleEntry.vue";
 import VoaExtension from "/src/views/VoaExtension.vue";
+import SingleEntryVisaB211AExtension from "/src/views/SingleEntryVisaB211AExtension.vue";
 
 //Routes
 const routes = [
@@ -145,6 +146,14 @@ const routes = [
     component: VoaExtension,
     meta: {
       title: "Voa Extension",
+    },
+  },
+  {
+    path: "/single-entry-visa-b211a-extension",
+    name: "SingleEntryVisaB211AExtension",
+    component: SingleEntryVisaB211AExtension,
+    meta: {
+      title: "Single Entry Visa B211A Extension",
     },
   },
 ];
