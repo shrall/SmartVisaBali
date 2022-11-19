@@ -202,12 +202,11 @@
             rounded-2xl
           "
         >
-          <router-link :to="{ name: 'InvestorItas' }">
+          <router-link class="w-full" :to="{ name: 'InvestorItas' }">
             <div
               class="
                 text-3xl
                 hover:bg-white
-                w-full
                 py-2
                 cursor-pointer
                 h-20
@@ -219,66 +218,70 @@
               Investor KITAS
             </div>
           </router-link>
-          <div
-            class="
-              text-3xl
-              hover:bg-white
-              w-full
-              py-2
-              cursor-pointer
-              h-20
-              flex
-              items-center
-              justify-center
-            "
-          >
-            Working KITAS
-          </div>
-          <div
-            class="
-              text-3xl
-              hover:bg-white
-              w-full
-              py-2
-              cursor-pointer
-              h-20
-              flex
-              items-center
-              justify-center
-            "
-          >
-            Family KITAS
-          </div>
-          <div
-            class="
-              text-3xl
-              hover:bg-white
-              w-full
-              py-2
-              cursor-pointer
-              h-20
-              flex
-              items-center
-              justify-center
-            "
-          >
-            Retirement KITAS
-          </div>
-          <div
-            class="
-              text-3xl
-              hover:bg-white
-              w-full
-              py-2
-              cursor-pointer
-              h-20
-              flex
-              items-center
-              justify-center
-            "
-          >
-            Others KITAS
-          </div>
+          <router-link class="w-full" :to="{ name: 'WorkingItas' }">
+            <div
+              class="
+                text-3xl
+                hover:bg-white
+                py-2
+                cursor-pointer
+                h-20
+                flex
+                items-center
+                justify-center
+              "
+            >
+              Working KITAS
+            </div>
+          </router-link>
+          <router-link class="w-full" :to="{ name: 'FamilyItas' }">
+            <div
+              class="
+                text-3xl
+                hover:bg-white
+                py-2
+                cursor-pointer
+                h-20
+                flex
+                items-center
+                justify-center
+              "
+            >
+              Family KITAS
+            </div>
+          </router-link>
+          <router-link class="w-full" :to="{ name: 'RetirementItas' }">
+            <div
+              class="
+                text-3xl
+                hover:bg-white
+                py-2
+                cursor-pointer
+                h-20
+                flex
+                items-center
+                justify-center
+              "
+            >
+              Retirement KITAS
+            </div>
+          </router-link>
+          <router-link class="w-full" :to="{ name: 'OthersItas' }">
+            <div
+              class="
+                text-3xl
+                hover:bg-white
+                py-2
+                cursor-pointer
+                h-20
+                flex
+                items-center
+                justify-center
+              "
+            >
+              Others KITAS
+            </div>
+          </router-link>
         </div>
       </div>
     </div>

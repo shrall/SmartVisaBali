@@ -14,18 +14,20 @@
   >
     <div class="grid grid-cols-2 place-items-center gap-32">
       <div class="flex flex-col justify-center gap-12">
-        <div class="text-5xl font-kanit font-semibold">INVESTOR ITAS</div>
+        <div class="text-5xl font-kanit font-semibold">FAMILY ITAS</div>
         <div class="text-lg">
-          For foreigners who invest & manage their business in a company in
-          Indonesia Indonesian Investor ITAS consists a lot of benefits, with
-          the most profitable ones include the ease of application and the
-          waiver of work permit fee.
+          For foreigners who married to Indonesian citizen and their children or
+          by spouses and children of work ITAS visa holders (validity and
+          prolongations following the work ITAS holder).
         </div>
         <div class="flex flex-col gap-4">
-          <div class="font-extrabold">Types of Investor ITAS:</div>
+          <div class="font-extrabold">The benefits are:</div>
           <ul class="list-disc pl-8">
-            <li>1 Year ITAS</li>
-            <li>2 Year ITAS</li>
+            <li>1 year stay permit</li>
+            <li>Possibility to open bank account</li>
+            <li>Possibility to obtain driving license</li>
+            <li>Possibility to get a medical insurance</li>
+            <li>Chance for permanent stay in 3 years</li>
           </ul>
         </div>
         <a href="https://linktr.ee/smartvisa.bali">
@@ -51,10 +53,7 @@
           </div>
         </a>
       </div>
-      <img
-        src="../assets/images/investor-itas.png"
-        class="w-vw-50 rounded-3xl"
-      />
+      <img src="../assets/images/family-itas.png" class="w-vw-50 rounded-3xl" />
     </div>
   </div>
   <Footer v-bind:bgColor="'bg-white'"></Footer>
