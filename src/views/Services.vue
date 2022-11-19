@@ -89,11 +89,35 @@
             rounded-2xl
           "
         >
-          <div class="text-3xl hover:bg-white w-full py-2 cursor-pointer h-20 flex items-center justify-center">
+          <div
+            class="
+              text-3xl
+              hover:bg-white
+              w-full
+              py-2
+              cursor-pointer
+              h-20
+              flex
+              items-center
+              justify-center
+            "
+          >
             Offshore Single Entry <br />
             Visit e-Visa B211A
           </div>
-          <div class="text-3xl hover:bg-white w-full py-2 cursor-pointer h-20 flex items-center justify-center">
+          <div
+            class="
+              text-3xl
+              hover:bg-white
+              w-full
+              py-2
+              cursor-pointer
+              h-20
+              flex
+              items-center
+              justify-center
+            "
+          >
             Onshore Single Entry <br />
             Visit e-Visa B211A
           </div>
@@ -176,19 +200,79 @@
             rounded-2xl
           "
         >
-          <div class="text-3xl hover:bg-white w-full py-2 cursor-pointer h-20 flex items-center justify-center">
+          <div
+            class="
+              text-3xl
+              hover:bg-white
+              w-full
+              py-2
+              cursor-pointer
+              h-20
+              flex
+              items-center
+              justify-center
+            "
+          >
             Investor KITAS
           </div>
-          <div class="text-3xl hover:bg-white w-full py-2 cursor-pointer h-20 flex items-center justify-center">
+          <div
+            class="
+              text-3xl
+              hover:bg-white
+              w-full
+              py-2
+              cursor-pointer
+              h-20
+              flex
+              items-center
+              justify-center
+            "
+          >
             Working KITAS
           </div>
-          <div class="text-3xl hover:bg-white w-full py-2 cursor-pointer h-20 flex items-center justify-center">
+          <div
+            class="
+              text-3xl
+              hover:bg-white
+              w-full
+              py-2
+              cursor-pointer
+              h-20
+              flex
+              items-center
+              justify-center
+            "
+          >
             Family KITAS
           </div>
-          <div class="text-3xl hover:bg-white w-full py-2 cursor-pointer h-20 flex items-center justify-center">
+          <div
+            class="
+              text-3xl
+              hover:bg-white
+              w-full
+              py-2
+              cursor-pointer
+              h-20
+              flex
+              items-center
+              justify-center
+            "
+          >
             Retirement KITAS
           </div>
-          <div class="text-3xl hover:bg-white w-full py-2 cursor-pointer h-20 flex items-center justify-center">
+          <div
+            class="
+              text-3xl
+              hover:bg-white
+              w-full
+              py-2
+              cursor-pointer
+              h-20
+              flex
+              items-center
+              justify-center
+            "
+          >
             Others KITAS
           </div>
         </div>
@@ -243,10 +327,34 @@
             rounded-2xl
           "
         >
-          <div class="text-3xl hover:bg-white w-full py-2 cursor-pointer h-20 flex items-center justify-center">
+          <div
+            class="
+              text-3xl
+              hover:bg-white
+              w-full
+              py-2
+              cursor-pointer
+              h-20
+              flex
+              items-center
+              justify-center
+            "
+          >
             VOA Extension
           </div>
-          <div class="text-3xl hover:bg-white w-full py-2 cursor-pointer h-20 flex items-center justify-center">
+          <div
+            class="
+              text-3xl
+              hover:bg-white
+              w-full
+              py-2
+              cursor-pointer
+              h-20
+              flex
+              items-center
+              justify-center
+            "
+          >
             Single Entry Visa <br />
             B211A Extension
           </div>
@@ -300,19 +408,79 @@
             rounded-2xl
           "
         >
-          <div class="text-3xl hover:bg-white w-full py-2 cursor-pointer h-20 flex items-center justify-center">
+          <div
+            class="
+              text-3xl
+              hover:bg-white
+              w-full
+              py-2
+              cursor-pointer
+              h-20
+              flex
+              items-center
+              justify-center
+            "
+          >
             Fast Track
           </div>
-          <div class="text-3xl hover:bg-white w-full py-2 cursor-pointer h-20 flex items-center justify-center">
+          <div
+            class="
+              text-3xl
+              hover:bg-white
+              w-full
+              py-2
+              cursor-pointer
+              h-20
+              flex
+              items-center
+              justify-center
+            "
+          >
             Driving License
           </div>
-          <div class="text-3xl hover:bg-white w-full py-2 cursor-pointer h-20 flex items-center justify-center">
+          <div
+            class="
+              text-3xl
+              hover:bg-white
+              w-full
+              py-2
+              cursor-pointer
+              h-20
+              flex
+              items-center
+              justify-center
+            "
+          >
             Foreign Investment Company (PMA)
           </div>
-          <div class="text-3xl hover:bg-white w-full py-2 cursor-pointer h-20 flex items-center justify-center">
+          <div
+            class="
+              text-3xl
+              hover:bg-white
+              w-full
+              py-2
+              cursor-pointer
+              h-20
+              flex
+              items-center
+              justify-center
+            "
+          >
             Residency Certificate (SKTT)
           </div>
-          <div class="text-3xl hover:bg-white w-full py-2 cursor-pointer h-20 flex items-center justify-center">
+          <div
+            class="
+              text-3xl
+              hover:bg-white
+              w-full
+              py-2
+              cursor-pointer
+              h-20
+              flex
+              items-center
+              justify-center
+            "
+          >
             VIP Airport Service in Ngurah Rai
           </div>
         </div>
@@ -343,32 +511,42 @@
         <div class="text-5xl text-white font-kanit font-semibold text-center">
           OFFSHORE VISA
         </div>
-        <div class="text-xl text-white text-center h-vh-25 flex flex-col justify-center">
+        <div
+          class="
+            text-xl text-white text-center
+            h-vh-25
+            flex flex-col
+            justify-center
+          "
+        >
           For foreigners who will travel to the territory of Indonesia in the
           framework of official government duties, tours, socio-cultural
           activities, family visits, business talks.
           <br /><br />This visa allows you to stay in Indonesia for a maximum of
           60 days and can be extended 4 times. Each extension with 30 days.
         </div>
-        <div
-          class="
-            bg-sv-yellow-300
-            text-sv-black
-            hover:text-white
-            font-kanit font-semibold
-            text-4xl
-            rounded-2xl
-            text-center
-            flex justify-center
-            px-4
-            py-2
-            shadow-lg
-            cursor-pointer
-            shadow-sv-yellow-300
-          "
-        >
-          Find Out More
-        </div>
+        <router-link :to="{ name: 'OffshoreVisa' }">
+          <div
+            class="
+              bg-sv-yellow-300
+              text-sv-black
+              hover:text-white
+              font-kanit font-semibold
+              text-4xl
+              rounded-2xl
+              text-center
+              flex
+              justify-center
+              px-4
+              py-2
+              shadow-lg
+              cursor-pointer
+              shadow-sv-yellow-300
+            "
+          >
+            Find Out More
+          </div>
+        </router-link>
       </div>
       <div
         class="
@@ -384,7 +562,14 @@
         <div class="text-5xl text-white font-kanit font-semibold text-center">
           ONSHORE VISA
         </div>
-        <div class="text-xl text-white text-center h-vh-25 flex flex-col justify-center">
+        <div
+          class="
+            text-xl text-white text-center
+            h-vh-25
+            flex flex-col
+            justify-center
+          "
+        >
           For foreigners who stay in Bali and would like to continue living here
           This visa allows you to stay in Indonesia for a maximum of 30 days and
           can be extended 4 times. Each extension with 30 days.
@@ -398,7 +583,8 @@
             text-4xl
             rounded-2xl
             text-center
-            flex justify-center
+            flex
+            justify-center
             px-4
             py-2
             shadow-lg

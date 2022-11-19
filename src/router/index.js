@@ -4,6 +4,7 @@ import Home from "/src/views/Home.vue";
 import AboutUs from "/src/views/AboutUs.vue";
 import ContactUs from "/src/views/ContactUs.vue";
 import Services from "/src/views/Services.vue";
+import OffshoreVisa from "/src/views/OffshoreVisa.vue";
 
 //Routes
 const routes = [
@@ -37,6 +38,14 @@ const routes = [
     component: Services,
     meta: {
       title: "Services",
+    },
+  },
+  {
+    path: "/offshore-visa",
+    name: "OffshoreVisa",
+    component: OffshoreVisa,
+    meta: {
+      title: "OffshoreVisa",
     },
   },
 ];
