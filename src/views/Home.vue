@@ -1,6 +1,6 @@
 <template>
   <Navbar />
-  <div class="w-vw-100 h-full relative pt-24">
+  <div class="w-vw-100 h-full relative pt-24 font-roboto">
     <img
       id="carousel-1"
       v-if="carouselImage == 1"
@@ -226,7 +226,7 @@
       </div>
     </div>
   </div>
-  <div class="w-vw-100 px-36 py-12 bg-white grid grid-cols-12">
+  <div class="w-vw-100 px-36 py-12 bg-white grid grid-cols-12 font-roboto">
     <div class="col-span-5 flex flex-col items-start justify-end gap-4 pr-44">
       <div class="text-5xl font-kanit font-semibold">Visit Our Office</div>
       <div class="text-xl font-roboto">

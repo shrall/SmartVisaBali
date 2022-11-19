@@ -1,6 +1,7 @@
 <template>
   <Navbar />
-  <div class="w-vw-100 h-vh-70 relative">
+  <div class="w-vw-100 h-vh-70 relative
+      font-roboto">
     <img
       :src="`src/assets/images/home-1.png`"
       class="w-full h-vh-70 object-cover object-top"
@@ -42,7 +43,8 @@
       "
     ></div>
   </div>
-  <div class="w-vw-100 h-vh-70 flex justify-center items-center gap-0 px-48">
+  <div class="w-vw-100 h-vh-70 flex justify-center items-center gap-0 px-48
+      font-roboto">
     <div class="grid grid-cols-2 place-items-center h-vh-60 gap-32">
       <div class="flex flex-col justify-center items-center gap-8">
         <div class="text-9xl">
@@ -79,7 +81,8 @@
       </div>
     </div>
   </div>
-  <div class="w-vw-100 px-36 pb-12 bg-white grid grid-cols-12">
+  <div class="w-vw-100 px-36 pb-12 bg-white grid grid-cols-12
+      font-roboto">
     <div class="col-span-5 flex flex-col items-start justify-end gap-4 pr-44">
       <div class="text-5xl font-kanit font-semibold">Visit Our Office</div>
       <div class="text-xl font-roboto">

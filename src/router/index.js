@@ -13,6 +13,8 @@ import FamilyItas from "/src/views/FamilyItas.vue";
 import RetirementItas from "/src/views/RetirementItas.vue";
 import OthersItas from "/src/views/OthersItas.vue";
 import VIPNgurahRai from "/src/views/VIPNgurahRai.vue";
+import OffshoreSingleEntry from "/src/views/OffshoreSingleEntry.vue";
+// import OnshoreSingleEntry from "/src/views/OnshoreSingleEntry.vue";
 
 //Routes
 const routes = [
@@ -120,6 +122,22 @@ const routes = [
       title: "VIP Ngurah Rai Service",
     },
   },
+  {
+    path: "/offshore-single-entry",
+    name: "OffshoreSingleEntry",
+    component: OffshoreSingleEntry,
+    meta: {
+      title: "Offshore Single Entry",
+    },
+  },
+  // {
+  //   path: "/onshore-single-entry",
+  //   name: "OnshoreSingleEntry",
+  //   component: OnshoreSingleEntry,
+  //   meta: {
+  //     title: "Onshore Single Entry",
+  //   },
+  // },
 ];
 
 const router = createRouter({

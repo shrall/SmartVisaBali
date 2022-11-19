@@ -2,6 +2,7 @@
   <Navbar />
   <div
     class="
+      font-roboto
       w-vw-100
       bg-sv-yellow-300
       flex flex-col
@@ -30,6 +31,7 @@
   </div>
   <div
     class="
+      font-roboto
       w-vw-100
       bg-sv-yellow-300
       flex flex-col

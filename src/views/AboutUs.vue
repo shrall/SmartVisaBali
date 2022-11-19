@@ -2,6 +2,7 @@
   <Navbar />
   <div
     class="
+      font-roboto
       w-vw-100
       h-vh-100
       bg-sv-yellow-300

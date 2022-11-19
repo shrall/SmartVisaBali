@@ -1,6 +1,7 @@
 <template>
   <Navbar />
-  <div class="w-vw-100 h-vh-70 relative">
+  <div class="w-vw-100 h-vh-70 relative
+      font-roboto">
     <img
       :src="`src/assets/images/services.png`"
       class="w-full h-vh-70 object-cover object-top"
@@ -36,7 +37,8 @@
       "
     ></div>
   </div>
-  <div class="v-vw-100">
+  <div class="v-vw-100
+      font-roboto">
     <div class="flex justify-center py-12">
       <div class="text-6xl underline font-kanit font-semibold">Our Service</div>
     </div>
@@ -89,22 +91,24 @@
             rounded-2xl
           "
         >
-          <div
-            class="
-              text-3xl
-              hover:bg-white
-              w-full
-              py-2
-              cursor-pointer
-              h-20
-              flex
-              items-center
-              justify-center
-            "
-          >
-            Offshore Single Entry <br />
-            Visit e-Visa B211A
-          </div>
+          <router-link class="w-full" :to="{ name: 'OffshoreSingleEntry' }">
+            <div
+              class="
+                text-3xl
+                hover:bg-white
+                w-full
+                py-2
+                cursor-pointer
+                h-20
+                flex
+                items-center
+                justify-center
+              "
+            >
+              Offshore Single Entry <br />
+              Visit e-Visa B211A
+            </div>
+          </router-link>
           <div
             class="
               text-3xl
@@ -496,7 +500,8 @@
       </div>
     </div>
   </div>
-  <div class="v-vw-100">
+  <div class="v-vw-100
+      font-roboto">
     <div class="flex flex-col items-center gap-6 justify-center py-12">
       <div class="text-5xl font-kanit font-semibold text-center w-vw-60">
         WHAT IS THE DIFFERENCE BETWEEN
