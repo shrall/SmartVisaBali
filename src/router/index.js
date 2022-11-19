@@ -15,6 +15,7 @@ import OthersItas from "/src/views/OthersItas.vue";
 import VIPNgurahRai from "/src/views/VIPNgurahRai.vue";
 import OffshoreSingleEntry from "/src/views/OffshoreSingleEntry.vue";
 import OnshoreSingleEntry from "/src/views/OnshoreSingleEntry.vue";
+import VoaExtension from "/src/views/VoaExtension.vue";
 
 //Routes
 const routes = [
@@ -136,6 +137,14 @@ const routes = [
     component: OnshoreSingleEntry,
     meta: {
       title: "Onshore Single Entry",
+    },
+  },
+  {
+    path: "/voa-extension",
+    name: "VoaExtension",
+    component: VoaExtension,
+    meta: {
+      title: "Voa Extension",
     },
   },
 ];

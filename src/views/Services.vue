@@ -338,21 +338,23 @@
             rounded-2xl
           "
         >
-          <div
-            class="
-              text-3xl
-              hover:bg-white
-              w-full
-              py-2
-              cursor-pointer
-              h-20
-              flex
-              items-center
-              justify-center
-            "
-          >
-            VOA Extension
-          </div>
+          <router-link class="w-full" :to="{ name: 'VoaExtension' }">
+            <div
+              class="
+                text-3xl
+                hover:bg-white
+                w-full
+                py-2
+                cursor-pointer
+                h-20
+                flex
+                items-center
+                justify-center
+              "
+            >
+              VOA Extension
+            </div>
+          </router-link>
           <div
             class="
               text-3xl
