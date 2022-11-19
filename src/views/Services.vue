@@ -475,21 +475,23 @@
           >
             Residency Certificate (SKTT)
           </div>
-          <div
-            class="
-              text-3xl
-              hover:bg-white
-              w-full
-              py-2
-              cursor-pointer
-              h-20
-              flex
-              items-center
-              justify-center
-            "
-          >
-            VIP Airport Service in Ngurah Rai
-          </div>
+          <router-link class="w-full" :to="{ name: 'VIPNgurahRai' }">
+            <div
+              class="
+                text-3xl
+                hover:bg-white
+                w-full
+                py-2
+                cursor-pointer
+                h-20
+                flex
+                items-center
+                justify-center
+              "
+            >
+              VIP Airport Service in Ngurah Rai
+            </div>
+          </router-link>
         </div>
       </div>
     </div>

@@ -12,6 +12,7 @@ import WorkingItas from "/src/views/WorkingItas.vue";
 import FamilyItas from "/src/views/FamilyItas.vue";
 import RetirementItas from "/src/views/RetirementItas.vue";
 import OthersItas from "/src/views/OthersItas.vue";
+import VIPNgurahRai from "/src/views/VIPNgurahRai.vue";
 
 //Routes
 const routes = [
@@ -28,7 +29,7 @@ const routes = [
     name: "AboutUs",
     component: AboutUs,
     meta: {
-      title: "AboutUs",
+      title: "About Us",
     },
   },
   {
@@ -36,7 +37,7 @@ const routes = [
     name: "ContactUs",
     component: ContactUs,
     meta: {
-      title: "ContactUs",
+      title: "Contact Us",
     },
   },
   {
@@ -52,7 +53,7 @@ const routes = [
     name: "OffshoreVisa",
     component: OffshoreVisa,
     meta: {
-      title: "OffshoreVisa",
+      title: "Offshore Visa",
     },
   },
   {
@@ -60,7 +61,7 @@ const routes = [
     name: "OnshoreVisa",
     component: OnshoreVisa,
     meta: {
-      title: "OnshoreVisa",
+      title: "Onshore Visa",
     },
   },
   {
@@ -68,7 +69,7 @@ const routes = [
     name: "EVisaB211B",
     component: EVisaB211B,
     meta: {
-      title: "EVisaB211B",
+      title: "E-Visa (B211B)",
     },
   },
   {
@@ -92,7 +93,7 @@ const routes = [
     name: "FamilyItas",
     component: FamilyItas,
     meta: {
-      title: "FamilyItas",
+      title: "Family Itas",
     },
   },
   {
@@ -100,7 +101,7 @@ const routes = [
     name: "RetirementItas",
     component: RetirementItas,
     meta: {
-      title: "RetirementItas",
+      title: "Retirement Itas",
     },
   },
   {
@@ -108,7 +109,15 @@ const routes = [
     name: "OthersItas",
     component: OthersItas,
     meta: {
-      title: "OthersItas",
+      title: "Others Itas",
+    },
+  },
+  {
+    path: "/vip-ngurahrai",
+    name: "VIPNgurahRai",
+    component: VIPNgurahRai,
+    meta: {
+      title: "VIP Ngurah Rai Service",
     },
   },
 ];
