@@ -34,7 +34,6 @@
     <div
       class="
         w-vw-100
-        px-16
         py-12
         flex flex-col
         gap-12
@@ -43,7 +42,7 @@
       "
     >
       <div class="text-5xl">DOCUMENTS REQUIRED</div>
-      <div class="flex items-center justify-center gap-8">
+      <div class="grid grid-flow-row grid-cols-2 gap-12 auto-rows-auto">
         <div
           class="
             bg-sv-black
@@ -55,8 +54,6 @@
             flex flex-col
             cursor-pointer
             gap-16
-            h-vh-100
-            w-vw-40
           "
         >
           <div class="text-xl font-roboto font-normal">
@@ -93,8 +90,6 @@
             flex flex-col
             cursor-pointer
             gap-8
-            h-vh-100
-            w-vw-40
           "
         >
           <div class="text-4xl font-medium">Process</div>

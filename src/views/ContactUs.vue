@@ -3,7 +3,7 @@
   <div class="w-vw-100 h-vh-70 relative
       font-roboto">
     <img
-      :src="`src/assets/images/home-1.png`"
+      src="../assets/images/home-1.png"
       class="w-full h-vh-70 object-cover object-top"
     />
     <div

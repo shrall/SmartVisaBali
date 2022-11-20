@@ -4,19 +4,19 @@
     <img
       id="carousel-1"
       v-if="carouselImage == 1"
-      :src="`src/assets/images/home-1.png`"
+      src="../assets/images/home-1.png"
       class="w-full"
     />
     <img
       id="carousel-2"
       v-else-if="carouselImage == 2"
-      :src="`src/assets/images/home-2.png`"
+      src="../assets/images/home-2.png"
       class="w-full"
     />
     <img
       id="carousel-3"
       v-else-if="carouselImage == 3"
-      :src="`src/assets/images/home-3.png`"
+      src="../assets/images/home-3.png"
       class="w-full"
     />
     <div

@@ -2,7 +2,7 @@
   <Navbar />
   <div class="w-vw-100 h-vh-70 relative font-roboto">
     <img
-      :src="`src/assets/images/services.png`"
+      src="../assets/images/services.png"
       class="w-full h-vh-70 object-cover object-top"
     />
     <div
