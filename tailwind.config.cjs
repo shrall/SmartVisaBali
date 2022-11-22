@@ -140,6 +140,9 @@ module.exports = {
         "vh-20": "20vh",
         "vh-30": "30vh",
       },
+      boxShadow: {
+        'sv-custom': '0px 4px 6px rgba(0, 0, 0, 0.25)',
+      }
     },
   },
   plugins: [],

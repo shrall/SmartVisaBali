@@ -1,30 +1,30 @@
 <template>
   <Navbar />
   <div
-    class="
-      font-roboto
-      w-vw-100
-      bg-sv-yellow-300
-      flex flex-col
-      items-center
-      gap-0
-      pt-36
-      px-36
-      pb-24
-    "
+    class="font-roboto w-vw-100 bg-sv-yellow-300 flex flex-col items-center gap-0 pt-36 xl:px-36 pb-24"
   >
-    <div class="grid grid-cols-2 place-items-center gap-32">
+    <div class="grid xl:grid-cols-2 place-items-center gap-32">
       <div class="flex flex-col justify-center gap-12">
-        <div class="text-5xl font-kanit font-semibold">ARTIST KITAS</div>
-        <div class="text-lg">
+        <div
+          class="text-3xl xl:text-5xl font-kanit font-semibold text-center xl:text-start"
+        >
+          ARTIST KITAS
+        </div>
+        <img
+          src="../assets/images/artist-kitas.png"
+          class="w-vw-70 rounded-3xl block xl:hidden mx-auto"
+        />
+        <div class="text-lg text-center xl:text-start px-4 xl:px-0">
           Are you a singer, musician or DJ? Perhaps you are a model or an actor
           who dreams of living and working in Bali or somewhere else in
           Indonesia? We can make your dream a reality by providing you with
           Artist KITAS.
         </div>
         <div class="flex flex-col gap-4">
-          <div class="font-extrabold">Documents required:</div>
-          <ul class="list-disc pl-8">
+          <div class="font-extrabold text-center xl:text-start">
+            Documents required:
+          </div>
+          <ul class="list-disc px-16 xl:pl-8">
             <li>
               Scanned copy of full page 1 (Identity Page) of Passport and cover
               (Must be in color and No photos).
@@ -61,13 +61,21 @@
       </div>
       <img
         src="../assets/images/artist-kitas.png"
-        class="w-vw-50 rounded-3xl"
+        class="w-vw-50 rounded-3xl hidden xl:block"
       />
     </div>
-    <div class="grid grid-cols-2 place-items-center gap-32 py-24">
+    <div class="grid xl:grid-cols-2 place-items-center gap-32 py-24">
       <div class="flex flex-col justify-center gap-12">
-        <div class="text-5xl font-kanit font-semibold">DEPENDENT KITAS</div>
-        <div class="text-lg">
+        <div
+          class="text-3xl xl:text-5xl font-kanit font-semibold text-center xl:text-start"
+        >
+          DEPENDENT KITAS
+        </div>
+        <img
+          src="../assets/images/dependent-kitas.png"
+          class="w-vw-70 rounded-3xl block xl:hidden mx-auto"
+        />
+        <div class="text-lg text-center xl:text-start px-4 xl:px-0">
           A Dependent / Spousal KITAS is a temporary residence permit for
           foreign nationals who want to bring their family with them (husband,
           wife or children) to Indonesia. The Dependent or spousal KITAS can be
@@ -76,8 +84,10 @@
           needed to obtain a Dependent or Spousal KITAS in Indonesia.
         </div>
         <div class="flex flex-col gap-4">
-          <div class="font-extrabold">Documents required:</div>
-          <ul class="list-disc pl-8">
+          <div class="font-extrabold text-center xl:text-start">
+            Documents required:
+          </div>
+          <ul class="list-disc px-16 xl:pl-8">
             <li>
               Passports valid for at least 18 months and minimum 2 blank pages.
             </li>
@@ -117,20 +127,30 @@
       </div>
       <img
         src="../assets/images/dependent-kitas.png"
-        class="w-vw-50 rounded-3xl"
+        class="w-vw-50 rounded-3xl hidden xl:block"
       />
     </div>
-    <div class="grid grid-cols-2 place-items-center gap-32 py-24">
+    <div class="grid xl:grid-cols-2 place-items-center gap-32 pb-24">
       <div class="flex flex-col justify-center gap-12">
-        <div class="text-5xl font-kanit font-semibold">SPOUSE KITAS</div>
-        <div class="text-lg">
+        <div
+          class="text-3xl xl:text-5xl font-kanit font-semibold text-center xl:text-start"
+        >
+          SPOUSE KITAS
+        </div>
+        <img
+          src="../assets/images/spouse-kitas.png"
+          class="w-vw-70 rounded-3xl block xl:hidden mx-auto"
+        />
+        <div class="text-lg text-center xl:text-start px-4 xl:px-0">
           The Spouse KITAS is a Visa intended for foreigners who are married to
           Indonesian citizens. Below is an explanation of how to obtain a SPOUSE
           KITAS.
         </div>
         <div class="flex flex-col gap-4">
-          <div class="font-extrabold">Documents required:</div>
-          <ul class="list-disc pl-8">
+          <div class="font-extrabold text-center xl:text-start">
+            Documents required:
+          </div>
+          <ul class="list-disc px-16 xl:pl-8">
             <li>
               Passports valid for at least 18 months and minimum 2 blank pages.
             </li>
@@ -166,26 +186,13 @@
       </div>
       <img
         src="../assets/images/spouse-kitas.png"
-        class="w-vw-50 rounded-3xl"
+        class="w-vw-50 rounded-3xl hidden xl:block"
       />
     </div>
     <a href="https://linktr.ee/smartvisa.bali">
       <div class="flex">
         <div
-          class="
-            bg-sv-black
-            text-white
-            hover:bg-white hover:text-sv-black
-            font-kanit font-semibold
-            text-4xl
-            rounded-2xl
-            text-center
-            justify-center
-            px-24
-            py-4
-            shadow-md shadow-sv-black
-            cursor-pointer
-          "
+          class="bg-sv-black text-white hover:bg-white hover:text-sv-black font-kanit font-semibold xl:text-4xl rounded-2xl text-center justify-center px-12 mx-auto xl:mx-0 xl:px-24 py-4 shadow-md shadow-sv-black cursor-pointer"
         >
           Apply Now
         </div>
@@ -194,8 +201,8 @@
   </div>
   <Footer v-bind:bgColor="'bg-white'"></Footer>
 </template>
-    
-    <script>
+
+<script>
 import Navbar from "../components/Navbar.vue";
 import Footer from "../components/Footer.vue";
 export default {
