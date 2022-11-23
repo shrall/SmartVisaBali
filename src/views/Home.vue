@@ -20,16 +20,16 @@
       class="h-vh-30 object-cover xl:h-full xl:w-full"
     />
     <div
-      class="grid grid-cols-12 absolute w-full xl:h-full xl:items-center top-36 xl:top-0 z-20 font-kanit"
+      class="grid grid-cols-12 absolute w-full xl:h-full xl:items-center top-28 xl:top-0 z-20 font-kanit"
     >
       <div class="col-span-4 xl:col-span-6"></div>
       <div
-        class="col-span-8 xl:col-span-6 flex flex-col items-end gap-4 mr-4 xl:mr-24"
+        class="col-span-8 xl:col-span-6 flex flex-col items-end mr-4 xl:mr-24"
       >
-        <div class="text-lg xl:text-5xl font-semibold">
+        <div class="text-lg xl:text-5xl font-semibold mb-4">
           Welcome to Smart Visa Bali
         </div>
-        <div class="text-xxs xl:text-lg text-right font-roboto">
+        <div class="text-xxs xl:text-lg text-right font-roboto mb-4">
           Smart Visa Bali is recommended visa agency in Bali.<br />With more
           than 5 years experience, we are trusted agency.<br />Handling quickly
           and your passport is in safe hand with us.
@@ -82,9 +82,9 @@
     ></div>
   </div>
   <div
-    class="w-vw-100 xl:px-16 py-12 bg-sv-yellow-500 flex flex-col gap-4 xl:gap-12 items-center font-kanit font-semibold"
+    class="w-vw-100 xl:px-16 py-12 bg-sv-yellow-500 flex flex-col xl:gap-12 items-center font-kanit font-semibold"
   >
-    <div class="text-4xl xl:text-5xl text-center">What We Do?</div>
+    <div class="text-4xl xl:text-5xl text-center mb-4 xl:mb-0">What We Do?</div>
     <div class="hidden xl:flex items-center justify-center gap-16">
       <router-link :to="{ name: 'Services' }">
         <div
@@ -124,42 +124,42 @@
         </div>
       </router-link>
     </div>
-    <div class="flex xl:hidden items-center justify-center gap-4">
+    <div class="flex xl:hidden items-center justify-center mb-4 xl:mb-0 xl:gap-4">
       <router-link :to="{ name: 'Services' }">
         <div
-          class="bg-sv-black text-md font-semibold rounded-lg text-white px-4 w-vw-40 justify-center py-4 h-12 text-center flex items-center hover:bg-white hover:text-sv-black cursor-pointer"
+          class="bg-sv-black text-md font-semibold rounded-lg text-white px-4 w-vw-40 justify-center py-4 h-12 text-center flex items-center hover:bg-white hover:text-sv-black cursor-pointer mx-2 xl:mx-0"
         >
           E-Visa<br />(B211 A)
         </div>
       </router-link>
       <router-link :to="{ name: 'Services' }">
         <div
-          class="bg-sv-black text-md font-semibold rounded-lg text-white px-4 w-vw-40 justify-center py-4 h-12 text-center flex items-center hover:bg-white hover:text-sv-black cursor-pointer"
+          class="bg-sv-black text-md font-semibold rounded-lg text-white px-4 w-vw-40 justify-center py-4 h-12 text-center flex items-center hover:bg-white hover:text-sv-black cursor-pointer mx-2 xl:mx-0"
         >
           E-Visa<br />(B211 B)
         </div>
       </router-link>
     </div>
-    <div class="flex xl:hidden items-center justify-center gap-4">
+    <div class="flex xl:hidden items-center justify-center mb-4 xl:mb-0 xl:gap-4">
       <router-link :to="{ name: 'Services' }">
         <div
-          class="bg-sv-black text-md font-semibold rounded-lg text-white px-4 w-vw-40 justify-center py-4 h-12 text-center flex items-center hover:bg-white hover:text-sv-black cursor-pointer"
+          class="bg-sv-black text-md font-semibold rounded-lg text-white px-4 w-vw-40 justify-center py-4 h-12 text-center flex items-center hover:bg-white hover:text-sv-black cursor-pointer mx-2 xl:mx-0"
         >
           K I T A S
         </div>
       </router-link>
       <router-link :to="{ name: 'Services' }">
         <div
-          class="bg-sv-black text-md font-semibold rounded-lg text-white px-4 w-vw-40 justify-center py-4 h-12 text-center flex items-center hover:bg-white hover:text-sv-black cursor-pointer"
+          class="bg-sv-black text-md font-semibold rounded-lg text-white px-4 w-vw-40 justify-center py-4 h-12 text-center flex items-center hover:bg-white hover:text-sv-black cursor-pointer mx-2 xl:mx-0"
         >
           Visa Extension
         </div>
       </router-link>
     </div>
-    <div class="flex xl:hidden items-center justify-center gap-4">
+    <div class="flex xl:hidden items-center justify-center xl:gap-4">
       <router-link :to="{ name: 'Services' }">
         <div
-          class="bg-sv-black text-md font-semibold rounded-lg text-white px-4 w-vw-40 justify-center py-4 h-12 text-center flex items-center hover:bg-white hover:text-sv-black cursor-pointer"
+          class="bg-sv-black text-md font-semibold rounded-lg text-white px-4 w-vw-40 justify-center py-4 h-12 text-center flex items-center hover:bg-white hover:text-sv-black cursor-pointer mx-2 xl:mx-0"
         >
           Other Services
         </div>

@@ -1,26 +1,12 @@
 <template>
   <Navbar />
-  <div class="w-vw-100 h-vh-40 xl:h-vh-70 relative
-      font-roboto">
+  <div class="w-vw-100 h-vh-40 xl:h-vh-70 relative font-roboto">
     <img
       src="../assets/images/home-1.png"
       class="w-full h-vh-40 xl:h-vh-70 object-cover object-top"
     />
     <div
-      class="
-        flex flex-col
-        absolute
-        w-full
-        h-full
-        items-center
-        justify-center
-        cen
-        top-0
-        z-20
-        font-kanit
-        gap-4
-        pt-24
-      "
+      class="flex flex-col absolute w-full h-full items-center justify-center cen top-0 z-20 font-kanit gap-4 pt-24"
     >
       <div class="text-5xl xl:text-9xl font-bold text-white">Contact Us!</div>
       <div class="text-xs xl:text-3xl font-semibold bg-white p-2">
@@ -31,27 +17,21 @@
       </div>
     </div>
     <div
-      class="
-        w-full
-        h-full
-        bg-gradient-to-b
-        from-sv-yellow-300/100
-        to-sv-yellow-300/0
-        absolute
-        top-0
-        z-10
-      "
+      class="w-full h-full bg-gradient-to-b from-sv-yellow-300/100 to-sv-yellow-300/0 absolute top-0 z-10"
     ></div>
   </div>
-  <div class="w-vw-100 xl:h-vh-70 flex justify-center items-center gap-0 px-48
-      font-roboto">
+  <div
+    class="w-vw-100 xl:h-vh-70 flex justify-center items-center gap-0 px-48 font-roboto"
+  >
     <div class="grid xl:grid-cols-2 place-items-center h-vh-60 xl:gap-32">
       <div class="flex flex-col justify-center items-center gap-2 xl:gap-8">
         <div class="text-7xl xl:text-9xl">
           <span class="fa fa-fw fa-address-book"></span>
         </div>
         <div class="text-xl xl:text-4xl font-semibold">CONTACT</div>
-        <div class="flex flex-col xl:flex-row items-center justify-center xl:gap-24">
+        <div
+          class="flex flex-col xl:flex-row items-center justify-center xl:gap-24"
+        >
           <a href="https://api.whatsapp.com/send?phone=6282147893462">
             <div class="flex flex-col items-center gap-2">
               <div class="text-sm xl:text-xl font-semibold">WhatsApp</div>
@@ -67,7 +47,9 @@
         </div>
       </div>
       <div class="flex flex-col justify-center items-center gap-2 xl:gap-8">
-        <div class="text-7xl xl:text-9xl"><span class="fa fa-fw fa-envelope"></span></div>
+        <div class="text-7xl xl:text-9xl">
+          <span class="fa fa-fw fa-envelope"></span>
+        </div>
         <div class="text-xl xl:text-4xl font-semibold">E-MAIL</div>
         <div class="flex items-center justify-center gap-24">
           <a href="mailto:smartvisabali1@gmail.com">
@@ -81,9 +63,15 @@
       </div>
     </div>
   </div>
-  <div class="w-vw-100 px-4 xl:px-36 py-12 bg-white grid grid-cols-12 font-roboto">
-    <div class="col-span-12 xl:col-span-5 flex flex-col items-start justify-end gap-4 pr-44">
-      <div class="text-xl xl:text-5xl font-kanit font-semibold">Visit Our Office</div>
+  <div
+    class="w-vw-100 px-4 xl:px-36 py-12 bg-white grid grid-cols-12 font-roboto"
+  >
+    <div
+      class="col-span-12 xl:col-span-5 flex flex-col items-start justify-end gap-4 pr-44"
+    >
+      <div class="text-xl xl:text-5xl font-kanit font-semibold">
+        Visit Our Office
+      </div>
       <div class="text-xs xl:text-xl font-roboto">
         Jl. Tukad Batanghari VI A GBM 1 No.1, Panjer, Kec. Denpasar Bar., Kota
         Denpasar, Bali 80225
@@ -114,8 +102,8 @@
   </div>
   <Footer v-bind:bgColor="'bg-sv-yellow-400'"></Footer>
 </template>
-    
-    <script>
+
+<script>
 import Navbar from "../components/Navbar.vue";
 import Footer from "../components/Footer.vue";
 export default {

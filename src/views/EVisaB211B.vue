@@ -4,17 +4,17 @@
     class="font-roboto w-vw-100 bg-sv-yellow-300 flex flex-col items-center gap-0 pt-36 xl:px-36"
   >
     <div class="grid xl:grid-cols-2 place-items-center h-vh-60 gap-32">
-      <div class="flex flex-col justify-center gap-12">
+      <div class="flex flex-col justify-center px-8 xl:px-0">
         <div
-          class="text-4xl xl:text-5xl font-kanit font-semibold text-center xl:text-start"
+          class="text-3xl xl:text-5xl font-kanit font-semibold text-center xl:text-start mb-12"
         >
           E-VISA (B211 B)
         </div>
         <img
           src="../assets/images/evisab211b.png"
-          class="w-vw-70 rounded-3xl block xl:hidden mx-auto"
+          class="w-vw-70 rounded-3xl block xl:hidden mx-auto mb-12"
         />
-        <div class="text-md xl:text-lg text-center xl:text-start">
+        <div class="flex flex-col gap-2 text-md xl:text-xl mb-12">
           E-Visa B211 B allows you to stay in Indonesia for a total of 6 months.
           It is available to the foreign nationals that are currently staying in
           Indonesia with an emergency visa extension (such as travelers that

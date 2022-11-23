@@ -465,28 +465,34 @@
   </div>
   <div class="v-vw-100 font-roboto">
     <div class="flex flex-col items-center gap-6 justify-center py-12">
-      <div class="text-xl xl:text-5xl font-kanit font-semibold text-center xl:w-vw-60">
+      <div
+        class="text-xl xl:text-5xl font-kanit font-semibold text-center xl:w-vw-60"
+      >
         WHAT IS THE DIFFERENCE BETWEEN
       </div>
-      <div class="text-xl xl:text-5xl font-kanit font-semibold text-center xl:w-vw-60">
+      <div
+        class="text-xl xl:text-5xl font-kanit font-semibold text-center xl:w-vw-60"
+      >
         OFFSHORE AND ONSHORE?
       </div>
     </div>
-    <div class="flex flex-col xl:flex-row items-center justify-center gap-12 mb-12">
+    <div class="flex flex-col xl:flex-row items-center justify-center mb-12">
       <div
-        class="rounded-2xl bg-sv-black flex flex-col items-center w-vw-90 xl:w-vw-40 p-8 gap-4"
+        class="rounded-2xl bg-sv-black flex flex-col items-center w-vw-90 xl:w-vw-40 p-8 mb-4 mr-0 xl:mb-0 xl:mr-12"
       >
-        <div class="text-2xl xl:text-5xl text-white font-kanit font-semibold text-center">
+        <div
+          class="text-2xl xl:text-5xl text-white font-kanit font-semibold text-center mb-4"
+        >
           OFFSHORE VISA
         </div>
         <div
-          class="text-sm xl:text-xl text-white text-center h-vh-25 flex flex-col justify-center"
+          class="text-sm xl:text-xl text-white text-center h-vh-25 flex flex-col justify-center px-2 xl:px-0 mb-8 xl:mb-4"
         >
           For foreigners who will travel to the territory of Indonesia in the
           framework of official government duties, tours, socio-cultural
-          activities, family visits, business talks.
-          <br /><br />This visa allows you to stay in Indonesia for a maximum of
-          60 days and can be extended 4 times. Each extension with 30 days.
+          activities, family visits, business talks.<br /><br />This visa allows
+          you to stay in Indonesia for a maximum of 60 days and can be extended
+          2 times. Each extension with 60 days.
         </div>
         <router-link :to="{ name: 'OffshoreVisa' }">
           <div
@@ -497,17 +503,19 @@
         </router-link>
       </div>
       <div
-        class="rounded-2xl bg-sv-black flex flex-col items-center w-vw-90 xl:w-vw-40 p-8 gap-4"
+        class="rounded-2xl bg-sv-black flex flex-col items-center w-vw-90 xl:w-vw-40 p-8"
       >
-        <div class="text-2xl xl:text-5xl text-white font-kanit font-semibold text-center">
+        <div
+          class="text-2xl xl:text-5xl text-white font-kanit font-semibold text-center mb-4"
+        >
           ONSHORE VISA
         </div>
         <div
-          class="text-sm xl:text-xl text-white text-center h-vh-25 flex flex-col justify-center"
+          class="text-sm xl:text-xl text-white text-center h-vh-25 flex flex-col justify-center px-2 xl:px-0 mb-8 xl:mb-4"
         >
           For foreigners who stay in Bali and would like to continue living here
-          This visa allows you to stay in Indonesia for a maximum of 30 days and
-          can be extended 4 times. Each extension with 30 days.
+          This visa allows you to stay in Indonesia for a maximum of 60 days and
+          can be extended 2 times. Each extension with 60 days.
         </div>
         <router-link :to="{ name: 'OnshoreVisa' }">
           <div

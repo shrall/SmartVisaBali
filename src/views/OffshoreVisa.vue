@@ -3,23 +3,23 @@
   <div
     class="font-roboto w-vw-100 bg-sv-yellow-300 flex flex-col items-center gap-0 pt-36 xl:px-36"
   >
-    <div class="grid xl:grid-cols-2 place-items-center h-vh-60 gap-32">
-      <div class="flex flex-col justify-center gap-12">
+    <div class="grid xl:grid-cols-2 place-items-center xl:h-vh-60 gap-32">
+      <div class="flex flex-col justify-center px-8 xl:px-0">
         <div
-          class="text-4xl xl:text-5xl font-kanit font-semibold text-center xl:text-start"
+          class="text-3xl xl:text-5xl font-kanit font-semibold text-center xl:text-start mb-12"
         >
           OFFSHORE VISA
         </div>
         <img
           src="../assets/images/offshore-visa.png"
-          class="w-vw-70 rounded-3xl block xl:hidden mx-auto"
+          class="w-vw-70 rounded-3xl block xl:hidden mx-auto mb-12"
         />
-        <div class="text-md xl:text-lg text-center xl:text-start">
+        <div class="flex flex-col gap-2 text-md xl:text-xl mb-12">
           For foreigners who will travel to the territory of Indonesia in the
           framework of official government duties, tours, socio-cultural
-          activities, family visits, business talks.<br /><br />
-          This visa allows you to stay in Indonesia for a maximum of 60 days and
-          can be extended 4 times. Each extension with 30 days.
+          activities, family visits, business talks.<br /><br />This visa allows
+          you to stay in Indonesia for a maximum of 60 days and can be extended
+          2 times. Each extension with 60 days.
         </div>
       </div>
       <img
