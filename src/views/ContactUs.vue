@@ -32,10 +32,10 @@
         <div
           class="flex flex-col xl:flex-row items-center justify-center xl:gap-24"
         >
-          <a href="https://api.whatsapp.com/send?phone=6282147893462">
+          <a href="https://api.whatsapp.com/send?phone=6281232071554">
             <div class="flex flex-col items-center gap-2">
               <div class="text-sm xl:text-xl font-semibold">WhatsApp</div>
-              <div class="text-sm xl:text-xl">(+62) 812 3865 5358</div>
+              <div class="text-sm xl:text-xl">(+62) 812 3207 1554</div>
             </div>
           </a>
           <a href="https://www.instagram.com/smartvisa.bali/?hl=en">

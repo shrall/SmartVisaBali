@@ -57,13 +57,17 @@
             <div class="flex items-center text-4xl xl:text-6xl justify-evenly">
               <a
                 href="https://www.instagram.com/smartvisa.bali/?hl=en"
+                target="_blank"
                 class="cursor-pointer hover:opacity-90"
                 ><span class="fab fa-instagram"></span
               ></a>
               <a href="#" class="cursor-pointer hover:opacity-90"
                 ><span class="fab fa-facebook"></span
               ></a>
-              <a href="#" class="cursor-pointer hover:opacity-90"
+              <a
+                href="https://wa.me/6281232071554"
+                target="_blank"
+                class="cursor-pointer hover:opacity-90"
                 ><span class="fab fa-whatsapp"></span
               ></a>
             </div>
@@ -72,7 +76,7 @@
             <div class="flex flex-col">
               <div class="flex items-center gap-2 mb-2">
                 <span class="fa fa-fw fa-phone"></span>
-                (+62)81238655358
+                (+62)81232071554
               </div>
               <div class="flex items-center gap-2">
                 <span class="fa fa-fw fa-envelope-open-text"></span>
@@ -94,13 +98,17 @@
         <div class="flex items-center text-6xl justify-evenly">
           <a
             href="https://www.instagram.com/smartvisa.bali/?hl=en"
+            target="_blank"
             class="cursor-pointer hover:opacity-90"
             ><span class="fab fa-instagram"></span
           ></a>
           <a href="#" class="cursor-pointer hover:opacity-90"
             ><span class="fab fa-facebook"></span
           ></a>
-          <a href="#" class="cursor-pointer hover:opacity-90"
+          <a
+            href="https://wa.me/6281232071554"
+            target="_blank"
+            class="cursor-pointer hover:opacity-90"
             ><span class="fab fa-whatsapp"></span
           ></a>
         </div>
